@@ -1,16 +1,17 @@
+import React from "react";
 import Head from "next/head";
 import Image from "next/image";
 
-//homepage
-const Home = () => {
+//contact page
+const contact = () => {
   return (
     <div>
       <Head>
-        <title>My Portfolio</title>
+        <title>Contact</title>
       </Head>
       <div>
         <Image
-          src="/homepage.jpg"
+          src="/contact.jpg"
           alt="Picture of the author"
           width={800}
           height={600}
@@ -20,4 +21,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default contact;
